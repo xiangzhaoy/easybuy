@@ -9,7 +9,7 @@ import java.util.Map;
 
 
 public interface ProductCategoryService {
-    List<User> UserLogin(String name, String password);
+
 
     List<ProductCategory> erji(Integer parentId);
     List<ProductCategory> ersanji(int parentId);

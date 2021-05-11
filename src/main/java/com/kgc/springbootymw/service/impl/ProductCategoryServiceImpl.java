@@ -36,13 +36,7 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
     }
 
 
-    @Override
-    public List<User> UserLogin(String name, String password) {
-        List<User> users = productCategoryMapper.UserLogin(name, password);
 
-        return users;
-
-    }
 
 
 

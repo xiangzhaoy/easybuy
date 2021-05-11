@@ -20,13 +20,7 @@ public class ProductCategoryController {
     @Autowired
     ProductCategoryService productCategoryService;
 
-     @RequestMapping(value = "login")
-     @ResponseBody
-     public RespBean Login(@RequestParam(value = "loginname") String loginname,@RequestParam(value = "password") String password){
-         List<User> list = productCategoryService.UserLogin(loginname, password);
 
-          return  RespBean.ok("登录成功",list);
-     }
 
      @ResponseBody
      @RequestMapping(value = "fjcx")

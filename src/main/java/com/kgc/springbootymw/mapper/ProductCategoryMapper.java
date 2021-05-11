@@ -10,7 +10,7 @@ import java.util.Map;
 
 public interface ProductCategoryMapper {
 
-    List<User> UserLogin(@RequestParam(value = "loginname") String loginname, @RequestParam(value = "password") String password);
+
 
     List<ProductCategory> erji(Integer parentId);
     List<ProductCategory> ersanji(int parentId);
