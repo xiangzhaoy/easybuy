@@ -7,4 +7,12 @@
     <select id="findAll"  resultType="com.kgc.springbootymw.pojo.News">
        select  * from easybuy_news
     </select>
+
+
+
+    <insert id="tianjia" parameterType="com.kgc.springbootymw.pojo.User">
+        insert into easybuy_user(loginName,userName,password,sex,identityCode,email,mobile,type)
+        values (#{loginName},#{userName},#{password},#{sex},#{identityCode},#{email},#{mobile},#{type})
+
+    </insert>
 </mapper>

@@ -1,8 +1,12 @@
 package com.kgc.springbootymw.pojo;
 
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
+@Table(name = "easybuy_user")
 public class User implements Serializable {
+    @Id
     private Integer id;
     private String loginName;//登录名称
     private String userName;//用户名

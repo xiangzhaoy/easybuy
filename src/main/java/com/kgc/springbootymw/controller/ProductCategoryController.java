@@ -40,8 +40,6 @@ public class ProductCategoryController {
              }
 
          }
-
-
          list.add(map);
 
          return RespBean.ok("查询成功",list);
